@@ -1,0 +1,31 @@
+<html>
+<head>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<title>土豪, 抽我!</title>
+</head>
+
+<body>
+	<h1>土豪, 抽我!</h1>
+	<div class="post">
+		<input type="text" name="postUrl" style="width:650px" placeholder="微博链接，如 http://weibo.com/1454064140/C3cSEgndR?type=comment#_rnd1423297925257" />
+	</div>
+	<div class="getReposters">
+		<button type="button" class="btn btn-default">获取转发者们</button>
+	</div>
+	<div class="luckyNum">
+		<input type="text" name="luckyNum" style="width:150px" placeholder="请输入奖品数量" />
+	</div>
+	<div class="getLucky">
+		<button type="button" class="btn btn-default">抽!</button>
+	</div>
+	<div class="luckyReposters" style="color:red">
+		<p>中奖者</p>
+	</div>
+	<div class="reposters">
+		<p>转发者们</p>
+	</div>
+
+	<script type="text/javascript" src="../dependency/zepto/zepto.min.js"></script>
+	<script type="text/javascript" src="weiboPrize.js"></script>
+</body>
+</html>
